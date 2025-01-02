@@ -21,6 +21,7 @@ Developed by: John Wilfred Thomas J W
 RegisterNumber: 24013517
 */
 ```
+```
 import pandas as pd
 from sklearn.tree import DecisionTreeClassifier, plot_tree
 data=pd.read_csv('Employee.csv')
@@ -46,17 +47,17 @@ from sklearn import metrics
 accuracy=metrics.accuracy_score(y_test,y_pred)
 print(accuracy)
 dt.predict([[0.5,0.8,9,260,6,0,1,2]])
-
+```
 
 ## Output:
-![decision tree classifier model](sam.png)
-![image](https://github.com/user-attachments/assets/fdee9ef6-a44e-43f4-9027-e6ada402d182)
-![image](https://github.com/user-attachments/assets/beb2c7d3-99c7-4b78-967b-995db12bf66d)
-![image](https://github.com/user-attachments/assets/d727847b-4f92-4644-a3e8-2ad63b7bb884)
-![image](https://github.com/user-attachments/assets/6e6c4c4f-ed9a-4d1a-ab31-5429c1a6d9eb)
-
-
-
+![image](https://github.com/user-attachments/assets/aad35c2f-69af-4d96-819f-0877fd8e1910)
+![image](https://github.com/user-attachments/assets/3dcf7515-92c8-4555-9e47-265aae16293a)
+![image](https://github.com/user-attachments/assets/3d76f2de-69f2-4452-8a36-e47e5f9c2579)
+![image](https://github.com/user-attachments/assets/7273a9f6-bc28-4dfe-8e21-797b3267ad9b)
+![image](https://github.com/user-attachments/assets/c779f942-0e74-45a5-b58b-6812970c6c4a)
+![image](https://github.com/user-attachments/assets/824df4a1-c053-4d0c-b251-315cf7103f15)
+![image](https://github.com/user-attachments/assets/20b9422a-62af-4a07-93cb-fad314196ebb)
+![image](https://github.com/user-attachments/assets/82a73e34-c170-4b8b-ad68-f745179bdd09)
 
 ## Result:
 Thus the program to implement the  Decision Tree Classifier Model for Predicting Employee Churn is written and verified using python programming.
